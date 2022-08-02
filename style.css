@@ -1,0 +1,82 @@
+:root {
+    --background: rgb(29, 29, 29);
+}
+
+body {
+    margin: 100px;
+    background-color: var(--background);
+    overflow-x: hidden;
+}
+
+.grid {
+    display: grid;
+    justify-content: center;
+}
+
+.bulb h1 {
+    text-align: center;
+    grid-column: 1/6;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 10px;
+}
+
+.bulb p {
+    text-align: center;
+    grid-column: 1/6;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.bulb {
+    grid-column: 1;
+}
+
+.bulb img {
+    display: flex;
+    grid-column: 2;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+
+#btn-on {
+    padding: 10px 25px;
+    border: none;
+    font-size: large;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+
+    grid-column: 3/4;
+    text-align: center;
+
+}
+
+#btn-off {
+    padding: 10px 25px;
+    border: none;
+    font-size: large;
+    background-color: var(--background);
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+
+    grid-column: 4/5;
+    text-align: center;
+}
+
+#btn-on:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+#btn-off:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+.btn button {
+    margin-right: 10px;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Light Bulb</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div class="bulb grid">
+        <h1>Light Bulb</h1>
+        <p>" A bulb that turn's On and Off with single click "</p>
+        <img id="light" src="./OFF.png" alt="bulb" width="450">
+    </div>
+
+    <div class="btn grid">
+        <button type="button" id="btn-on" onclick="light(1)">Turn ON</button>
+        <button type="button" id="btn-off" onclick="light(0)">Turn OFF</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
