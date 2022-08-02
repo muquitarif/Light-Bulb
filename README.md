@@ -6,6 +6,8 @@ A Light bulb that turn's On and Off with single click
 - CSS3
 - Javascript
 
+## Live site URL
+https://light-bulb-muquitarif.vercel.app/
 
 ## Screenshots
 #### Desktop View
